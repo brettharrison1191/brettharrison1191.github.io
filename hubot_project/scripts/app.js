@@ -41,18 +41,18 @@
      		}
      	});
 
-     	robot.hear(/my favorite band is (.*)/i, function(res){
+     	robot.respond(/my favorite band is (.*)/i, function(res){
         	var band = res.match[1];
 	  		if ( band === "Radiohead" ){
-	  			res.send("No Way! " + band + " is my favorite too!");
+	  			res.reply("No Way! " + band + " is my favorite too!");
 	  		}else if (band === "LCD Soundsystem"){
-	  			res.send("No Way! " + band + " is my favorite too!");
+	  			res.reply("No Way! " + band + " is my favorite too!");
      		}else if (band === "The Beatles"){
-	  			res.send("No Way! " + band + " is my favorite too!");
+	  			res.reply("No Way! " + band + " is my favorite too!");
      		}else if (band === "The Eagles"){
-	  			res.send("Man, come on I had a rough night, and I hate the fucking Eagles, man.");
+	  			res.reply("Man, come on I had a rough night, and I hate the fucking Eagles, man.");
      		}else {
-     			res.send("No worries, I will not tell anyone that " + band + " is your favorite band.");
+     			res.reply("No worries, I will not tell anyone that " + band + " is your favorite band.");
      		}
      	});
 
