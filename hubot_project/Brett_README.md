@@ -47,10 +47,3 @@ Then you can interact with Penny by typing `Penny help`.
 4. Penny likes to travel - say a few places and Penny has maybe been there
     * write: Montana
     * write: Boston
-
-
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
